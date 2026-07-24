@@ -524,3 +524,23 @@ footer {
 
 
 }
+/* ===== ナビゲーション ===== */
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 25px;
+    flex-wrap: wrap;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #555;
+    font-size: 15px;
+    transition: .3s;
+}
+
+.menu a:hover {
+    color: #000;
+}
