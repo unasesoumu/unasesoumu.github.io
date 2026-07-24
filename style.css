@@ -568,3 +568,34 @@ footer {
     font-size: 14px;
     margin-bottom: 5px;
 }
+/* ===== Works Page ===== */
+
+.works-page{
+
+max-width:1000px;
+
+margin:80px auto;
+
+padding:0 20px;
+
+text-align:center;
+
+}
+
+.works-text{
+
+color:#666;
+
+margin-bottom:50px;
+
+}
+
+.works-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+gap:30px;
+
+}
