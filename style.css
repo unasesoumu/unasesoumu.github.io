@@ -599,3 +599,28 @@ grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
 gap:30px;
 
 }
+/* ===== About ===== */
+
+.about-page{
+    max-width:700px;
+    margin:80px auto;
+    padding:0 20px;
+    text-align:center;
+}
+
+.about-page h1{
+    margin-bottom:40px;
+}
+
+.about-page h2{
+    margin-top:60px;
+}
+
+.about-list{
+    list-style:none;
+    padding:0;
+}
+
+.about-list li{
+    margin:15px 0;
+}
