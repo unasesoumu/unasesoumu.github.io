@@ -544,3 +544,27 @@ footer {
 .menu a:hover {
     color: #000;
 }
+/* ===== News ===== */
+
+.news-preview {
+    max-width: 700px;
+    margin: 100px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.news-preview h2 {
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+
+.news-item {
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.news-item .date {
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
