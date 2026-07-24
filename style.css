@@ -624,3 +624,23 @@ gap:30px;
 .about-list li{
     margin:15px 0;
 }
+/* ===== Contact Page ===== */
+
+.contact-page{
+    max-width:700px;
+    margin:80px auto;
+    padding:0 20px;
+    text-align:center;
+}
+
+.contact-page h1{
+    margin-bottom:40px;
+}
+
+.contact-list{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    flex-wrap:wrap;
+    margin-top:40px;
+}
