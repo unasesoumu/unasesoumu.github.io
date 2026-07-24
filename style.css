@@ -644,3 +644,29 @@ gap:30px;
     flex-wrap:wrap;
     margin-top:40px;
 }
+/* ===== News Page ===== */
+
+.news-page{
+    max-width:800px;
+    margin:80px auto;
+    padding:0 20px;
+}
+
+.news-page h1{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.news-card{
+    border:1px solid #eee;
+    border-radius:15px;
+    padding:30px;
+    margin-bottom:30px;
+    background:#fff;
+}
+
+.news-date{
+    color:#888;
+    font-size:14px;
+    margin-bottom:10px;
+}
