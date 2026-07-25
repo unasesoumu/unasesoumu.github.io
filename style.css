@@ -901,3 +901,24 @@ gap:30px;
     }
 
 }
+@media screen and (max-width:600px){
+
+    .search{
+        position:absolute;
+        top:70px;
+        left:50%;
+        transform:translateX(-50%);
+    }
+
+
+    .menu-button{
+        right:20px;
+        top:20px;
+    }
+
+
+    header{
+        height:120px;
+    }
+
+}
