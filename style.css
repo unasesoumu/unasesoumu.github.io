@@ -915,3 +915,38 @@ gap:30px;
     }
 
 }
+@media screen and (max-width:600px){
+
+    .works{
+
+        display:block;
+
+        padding:0 15px;
+
+    }
+
+
+    .work-card{
+
+        width:100%;
+
+        margin-bottom:30px;
+
+        padding:20px;
+
+        box-sizing:border-box;
+
+    }
+
+
+    .work-card img{
+
+        width:100%;
+
+        max-width:300px;
+
+        height:auto;
+
+    }
+
+}
