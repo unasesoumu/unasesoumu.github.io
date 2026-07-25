@@ -903,12 +903,13 @@ gap:30px;
 }
 @media screen and (max-width:600px){
 
-    .search{
-        position:absolute;
-        top:70px;
-        left:50%;
-        transform:translateX(-50%);
-    }
+   .search{
+    position:absolute;
+    top:80px;
+    right:20px;
+    left:auto;
+    transform:none;
+}
 
 
     .menu-button{
@@ -952,6 +953,16 @@ gap:30px;
     right:20px;
     top:90px;
     transform:none;
+}
+   
+    .search{
+        position:absolute;
+        right:20px;
+        top:70px;
+        left:auto;
+        transform:none;
+    }
+
 }
 
     .search input{
