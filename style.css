@@ -862,3 +862,8 @@ gap:30px;
         margin-bottom:20px;
         min-height:0;
     }}
+.search input{
+
+    border-radius:30px;
+
+}
