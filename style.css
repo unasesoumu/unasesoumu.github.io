@@ -409,6 +409,17 @@ footer {
 
 
     header {
+       .menu-button{
+    position:absolute;
+    right:20px;
+    top:50%;
+    transform:translateY(-50%);
+
+    width:40px;
+    height:30px;
+
+    display:block;
+}
 
         padding: 30px 15px;
 
