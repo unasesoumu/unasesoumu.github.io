@@ -53,3 +53,14 @@ searchInput.addEventListener("input", function() {
     });
 
 });
+const menuButton = document.getElementById("menuButton");
+const menuPanel = document.getElementById("menuPanel");
+
+
+menuButton.addEventListener("click",()=>{
+
+    menuButton.classList.toggle("active");
+
+    menuPanel.classList.toggle("open");
+
+});
