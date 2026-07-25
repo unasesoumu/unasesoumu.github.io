@@ -994,3 +994,34 @@ gap:30px;
     }
 
 }
+@media screen and (max-width:600px){
+
+    header{
+        height:140px;
+        position:relative;
+    }
+
+    .logo{
+        position:absolute;
+        left:20px;
+        top:20px;
+    }
+
+    .menu-button{
+        position:absolute;
+        right:20px;
+        top:20px;
+    }
+
+    .search{
+        position:absolute;
+        right:20px;
+        top:80px;
+        transform:none;
+    }
+
+    .search input{
+        width:160px;
+    }
+
+}
