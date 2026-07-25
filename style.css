@@ -833,12 +833,21 @@ gap:30px;
 
     }
 
+.search input{
 
-    .search input{
+    width:160px;
 
-        width:160px;
+    padding:12px 18px;
 
-    }
+    border:1px solid #ddd;
+
+    border-radius:30px;
+
+    outline:none;
+
+    font-size:14px;
+
+}
 
 
     /* メニュー */
