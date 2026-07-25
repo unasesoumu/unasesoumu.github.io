@@ -1,3 +1,4 @@
+console.log("script読み込みOK");
 const searchInput = document.getElementById("searchInput");
 const results = document.getElementById("searchResults");
 
