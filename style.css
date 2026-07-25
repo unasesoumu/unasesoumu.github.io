@@ -282,7 +282,7 @@ footer {
 
 .search {
     position: absolute;
-    right: 30px;
+    right: 90px;
     top: 50%;
     transform: translateY(-50%);
 }
