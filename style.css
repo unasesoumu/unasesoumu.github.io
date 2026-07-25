@@ -886,157 +886,111 @@ gap:30px;
     font-size:18px;
 
 }
-@media screen and (max-width:600px){
+/* =========================
+   スマホ表示 最終調整
+========================= */
 
-    header{
-        position:relative;
-    }
-
-    .menu-button{
-        display:block;
-        position:absolute;
-        right:15px;
-        top:50%;
-        transform:translateY(-50%);
-        z-index:10000;
-    }
-
-}
-@media screen and (max-width:600px){
-
-   .search{
-    position:absolute;
-    top:80px;
-    right:20px;
-    left:auto;
-    transform:none;
-}
-
-
-    .menu-button{
-        right:20px;
-        top:20px;
-    }
-
-
-    header{
-        height:120px;
-    }
-
-}
-@media screen and (max-width:600px){
-
-    .search input{
-        width:180px;
-    }
-
-}
-@media screen and (max-width:600px){
-
-    header{
-        height:120px;
-    }
-
-    .logo{
-        position:absolute;
-        left:20px;
-        top:20px;
-    }
-
-    .menu-button{
-        position:absolute;
-        right:20px;
-        top:20px;
-    }
-
-  .search{
-    position:absolute;
-    right:20px;
-    top:90px;
-    transform:none;
-}
-   
-    .search{
-        position:absolute;
-        right:20px;
-        top:70px;
-        left:auto;
-        transform:none;
-    }
-
-}
-
-    .search input{
-        width:160px;
-    }
-
-}
-@media screen and (max-width:600px){
-
-    header{
-        height:120px;
-        position:relative;
-    }
-
-
-    .logo{
-        position:absolute;
-        left:20px;
-        top:20px;
-    }
-
-
-    .menu-button{
-        position:absolute;
-        right:20px;
-        top:20px;
-    }
-
-
-    .search{
-        position:absolute;
-        right:20px;
-        top:70px;
-        transform:none;
-    }
-
-
-    .search input{
-        width:160px;
-    }
-
-}
 @media screen and (max-width:600px){
 
     header{
         height:140px;
         position:relative;
+        padding:30px 15px;
     }
 
+
+    /* ロゴ */
     .logo{
         position:absolute;
         left:20px;
         top:20px;
+
+        font-size:18px;
+        white-space:nowrap;
     }
 
+
+    /* 三本線 */
     .menu-button{
         position:absolute;
+
         right:20px;
         top:20px;
+
+        width:40px;
+        height:30px;
+
+        border:none;
+        background:none;
+
+        cursor:pointer;
+
+        z-index:10000;
     }
 
-    .search{
-        position:absolute;
-        right:20px;
-        top:80px;
-        transform:none;
+
+    .menu-button span{
+
+        display:block;
+
+        height:2px;
+
+        background:#333;
+
+        margin:7px 0;
+
+        transition:.3s;
     }
+
+
+    /* ×になる動き */
+    .menu-button.active span:nth-child(1){
+
+        transform:translateY(9px) rotate(45deg);
+
+    }
+
+
+    .menu-button.active span:nth-child(2){
+
+        opacity:0;
+
+    }
+
+
+    .menu-button.active span:nth-child(3){
+
+        transform:translateY(-9px) rotate(-45deg);
+
+    }
+
+
+
+    /* 検索バー */
+    .search{
+
+        position:absolute;
+
+        right:20px;
+        top:75px;
+
+        transform:none;
+
+    }
+
 
     .search input{
+
         width:160px;
+
     }
 
-}
-.news-preview{
-    padding-bottom:80px;
+
+    /* メニュー */
+    .menu-panel{
+
+        width:280px;
+
+    }
+
 }
