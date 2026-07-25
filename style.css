@@ -278,7 +278,30 @@ footer {
     border-top: 1px solid #eee;
 }
 
+/* =========================
+   PC検索バー
+========================= */
 
+.search{
+    margin-left:auto;
+    margin-right:20px;
+}
+
+.search input{
+
+    width:220px;
+
+    padding:12px 18px;
+
+    border:1px solid #ddd;
+
+    border-radius:30px;
+
+    outline:none;
+
+    font-size:14px;
+
+}
 
 
 /* =========================
@@ -862,8 +885,3 @@ gap:30px;
         margin-bottom:20px;
         min-height:0;
     }}
-.search input{
-
-    border-radius:30px;
-
-}
