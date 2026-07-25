@@ -848,4 +848,8 @@ gap:30px;
 
     }
 
-}
+    .work-card{
+        padding:15px;
+        margin-bottom:20px;
+        min-height:0;
+    }}
