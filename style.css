@@ -922,3 +922,10 @@ gap:30px;
     }
 
 }
+@media screen and (max-width:600px){
+
+    .search input{
+        width:180px;
+    }
+
+}
