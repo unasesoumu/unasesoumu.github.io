@@ -884,4 +884,7 @@ gap:30px;
         padding:15px;
         margin-bottom:20px;
         min-height:0;
-    }}
+    }
+   .coming-soon{
+    min-height:120px;
+}
