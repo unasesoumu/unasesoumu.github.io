@@ -888,3 +888,30 @@ gap:30px;
    .coming-soon{
     min-height:120px;
 }
+@media screen and (max-width:600px){
+
+    .work-card img{
+
+        width:100%;
+        max-width:250px;
+        height:auto;
+
+        margin-bottom:15px;
+
+    }
+
+
+    .work-card{
+
+        padding:15px;
+
+    }
+
+
+    .coming-soon{
+
+        min-height:150px;
+
+    }
+
+}
