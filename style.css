@@ -771,14 +771,9 @@ gap:30px;
 
 }/* ===== Hamburger Menu ===== */
 
+/* ===== Hamburger Menu ===== */
+
 .menu-button{
-
-    position:absolute;
-
-    right:30px;
-    top:50%;
-
-    transform:translateY(-50%);
 
     width:40px;
     height:30px;
