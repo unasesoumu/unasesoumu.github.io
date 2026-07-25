@@ -885,3 +885,19 @@ gap:30px;
     font-size:18px;
 
 }
+@media screen and (max-width:600px){
+
+    header{
+        position:relative;
+    }
+
+    .menu-button{
+        display:block;
+        position:absolute;
+        right:15px;
+        top:50%;
+        transform:translateY(-50%);
+        z-index:10000;
+    }
+
+}
