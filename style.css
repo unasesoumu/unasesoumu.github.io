@@ -439,24 +439,7 @@ footer {
 
     /* 検索バー */
 
-    .search {
-
-        position: static;
-
-        transform: none;
-
-        margin-top: 20px;
-
-    }
-
-
-    .search input {
-
-        width: 260px;
-
-        max-width: 90%;
-
-    }
+    
 
 
 
