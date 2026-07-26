@@ -835,3 +835,8 @@ header {
     border-radius:12px;
 
 }
+.work-card img{
+    width:240px !important;
+    height:340px !important;
+    object-fit:contain !important;
+}
