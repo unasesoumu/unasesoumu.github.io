@@ -987,3 +987,10 @@ gap:30px;
     margin:0 auto 25px;
 
 }
+.work-card img{
+    width:300px;
+    height:400px;
+    object-fit:contain;
+    display:block;
+    margin:0 auto 25px;
+}
