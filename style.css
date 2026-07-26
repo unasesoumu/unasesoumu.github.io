@@ -818,3 +818,28 @@ header {
 
 
 }
+/* Works 横並び修正 */
+
+.works-grid{
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:30px;
+}
+
+
+.work-card{
+    text-align:center;
+}
+
+
+.work-card img{
+    display:block;
+    margin:0 auto 25px;
+}
+@media screen and (max-width:600px){
+
+    .works-grid{
+        grid-template-columns:1fr;
+    }
+
+}
