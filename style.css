@@ -62,18 +62,22 @@ header {
    Works
 ========================= */
 
+
+
+
+
+/* =========================
+   Works
+========================= */
+
 .works {
 
     max-width:1000px;
-
     margin:80px auto;
-
     padding:0 20px;
 
     display:grid;
-
     grid-template-columns:repeat(2,1fr);
-
     gap:30px;
 
 }
@@ -82,13 +86,10 @@ header {
 .works h2 {
 
     grid-column:1 / -1;
-
     text-align:center;
-
     font-weight:normal;
 
 }
-
 
 
 /* 作品カード */
@@ -96,49 +97,48 @@ header {
 .work-card {
 
     border:1px solid #eee;
-
     padding:30px;
 
     text-align:center;
-
-    transition:.3s;
 
     box-sizing:border-box;
 
 }
 
 
-.work-card:hover {
 
-    transform:translateY(-8px);
+/* 画像を入れる箱 */
 
-    box-shadow:0 12px 30px rgba(0,0,0,.08);
+.work-image {
+
+    width:300px;
+    height:400px;
+
+    margin:0 auto 25px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
 
 }
 
 
+/* 表紙画像 */
 
+.work-image img {
 
+    max-width:100%;
+    max-height:100%;
 
-.work-card p {
+    object-fit:contain;
 
-    color:#555;
+    border-radius:12px;
 
 }
 
 
 
 /* ボタン */
-
-.work-link {
-
-    text-decoration:none;
-
-    color:#333;
-
-}
-
-
 
 .work-button {
 
@@ -157,10 +157,39 @@ header {
 }
 
 
+.work-card p {
 
-.work-button:hover {
+    color:#555;
 
-    background:#e6e6e6;
+}
+
+
+/* スマホ */
+
+@media screen and (max-width:600px){
+
+    .works{
+
+        display:block;
+
+        padding:0 15px;
+
+    }
+
+
+    .work-card{
+
+        margin-bottom:30px;
+
+    }
+
+
+    .work-image{
+
+        width:250px;
+        height:330px;
+
+    }
 
 }
 /* =========================
