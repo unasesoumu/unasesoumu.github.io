@@ -950,47 +950,19 @@ gap:30px;
     }
 
 }
+   /* 作品画像サイズ統一 */
+
 .work-card img{
 
-    width:100%;
-
-    max-width:500px;
-
-    display:block;
-
-    margin:0 auto 25px;
-
-}
-.work-card img{
+  .work-card img{
 
     width:100%;
     max-width:300px;
     height:auto;
-    display:block;
-    margin:0 auto 25px;
-
-}
-/* 作品画像サイズ統一 */
-.work-card img{
-    width:300px !important;
-    height:420px !important;
-    object-fit:contain !important;
-    display:block;
-    margin:0 auto 25px;
-}
-.work-card img{
-
-    width:300px;
-    height:auto;
 
     display:block;
     margin:0 auto 25px;
 
-}
-.work-card img{
-    width:300px;
-    height:400px;
-    object-fit:contain;
-    display:block;
-    margin:0 auto 25px;
+    border-radius:12px;
+
 }
