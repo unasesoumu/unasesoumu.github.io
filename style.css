@@ -16,23 +16,24 @@ body {
 ========================= */
 
 header {
-    position:relative;
-    padding:40px 30px;
-    border-bottom:1px solid #eee;
+    position: relative;
+    padding: 40px 30px;
+    border-bottom: 1px solid #eee;
 
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
+
 .logo {
-    display: inline-block;
     text-decoration: none;
     color: #333;
     font-size: 32px;
     font-weight: 500;
     white-space: nowrap;
 }
+
 
 .logo:hover {
     opacity: 0.7;
@@ -44,16 +45,16 @@ header {
 ========================= */
 
 .hero {
-    max-width: 700px;
-    margin: 80px auto;
-    padding: 0 40px;
-    text-align: center;
+    max-width:700px;
+    margin:80px auto;
+    padding:0 40px;
+    text-align:center;
 }
 
+
 .hero p {
-    font-size: 22px;
-    color: #666;
-    margin: 0;
+    font-size:22px;
+    color:#666;
 }
 
 
@@ -62,205 +63,340 @@ header {
 ========================= */
 
 .works {
-    max-width: 1000px;
-    margin: 80px auto;
-    padding: 0 20px;
 
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
+    max-width:1000px;
+
+    margin:80px auto;
+
+    padding:0 20px;
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:30px;
+
 }
+
 
 .works h2 {
-    grid-column: 1 / -1;
-    text-align: center;
-    font-weight: normal;
-    margin-bottom: 30px;
+
+    grid-column:1 / -1;
+
+    text-align:center;
+
+    font-weight:normal;
+
 }
 
 
+
+/* 作品カード */
+
 .work-card {
-    border: 1px solid #eee;
-    padding: 30px;
-    text-align: center;
-    transition: transform 0.3s ease,
-                box-shadow 0.3s ease;
+
+    border:1px solid #eee;
+
+    padding:30px;
+
+    text-align:center;
+
+    transition:.3s;
+
 }
 
 
 .work-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+
+    transform:translateY(-8px);
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
 }
 
+
+/* ★画像サイズ統一 */
 
 .work-card img {
-    width: 100%;
-    max-width: 500px;
-    border-radius: 12px;
-    margin-bottom: 25px;
+
+    width:300px;
+
+    height:400px;
+
+    object-fit:contain;
+
+    display:block;
+
+    margin:0 auto 25px;
+
+    border-radius:12px;
+
 }
+
 
 
 .work-card p {
-    color: #555;
+
+    color:#555;
+
 }
 
 
-/* 作品ボタン */
+
+/* ボタン */
 
 .work-link {
-    text-decoration: none;
-    color: #333;
+
+    text-decoration:none;
+
+    color:#333;
+
 }
+
 
 
 .work-button {
-    display: inline-block;
-    padding: 12px 25px;
-    margin-top: 20px;
 
-    background: #f5f5f5;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+    display:inline-block;
 
-    color: #333;
-    font-weight: 500;
+    padding:12px 25px;
 
-    transition: 0.3s;
+    margin-top:20px;
+
+    background:#f5f5f5;
+
+    border:1px solid #ddd;
+
+    border-radius:8px;
+
 }
+
 
 
 .work-button:hover {
-    background: #e6e6e6;
+
+    background:#e6e6e6;
+
 }
-
-
 /* =========================
    Coming Soon
 ========================= */
 
 .coming-soon {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 
-    min-height: 380px;
+    display:flex;
 
-    background: #f5f5f5;
-    border: 1px dashed #ccc;
+    flex-direction:column;
+
+    justify-content:center;
+
+    min-height:380px;
+
+    background:#f5f5f5;
+
+    border:1px dashed #ccc;
+
 }
 
 
 .coming-soon h3 {
-    font-size: 28px;
-    font-weight: normal;
+
+    font-size:28px;
+
+    font-weight:normal;
+
 }
 
 
 .coming-soon p {
-    color: #777;
+
+    color:#777;
+
 }
+
+
+
+/* =========================
+   News
+========================= */
+
+.news-preview {
+
+    max-width:700px;
+
+    margin:100px auto;
+
+    padding:0 20px;
+
+    text-align:center;
+
+}
+
+
+.news-preview h2 {
+
+    font-weight:normal;
+
+    margin-bottom:40px;
+
+}
+
+
+.news-item {
+
+    padding:20px 0;
+
+    border-bottom:1px solid #eee;
+
+}
+
+
+.news-item .date {
+
+    color:#888;
+
+    font-size:14px;
+
+}
+
+
+/* =========================
+   共通ボタン
+========================= */
+
+.button {
+
+    display:inline-block;
+
+    padding:12px 35px;
+
+    margin-top:30px;
+
+    border:1px solid #333;
+
+    border-radius:8px;
+
+    color:#333;
+
+    text-decoration:none;
+
+}
+
+
+.button:hover {
+
+    background:#333;
+
+    color:white;
+
+}
+
 
 
 /* =========================
    About
 ========================= */
 
-.about {
-    max-width: 700px;
-    margin: 80px auto;
-    padding: 0 20px;
-    text-align: center;
+.about-page {
+
+    max-width:700px;
+
+    margin:80px auto;
+
+    padding:0 20px;
+
+    text-align:center;
+
 }
 
 
-.about h2 {
-    font-weight: normal;
+.about-page h1 {
+
+    margin-bottom:40px;
+
 }
 
 
-.about p {
-    color: #555;
+.about-page h2 {
+
+    margin-top:60px;
+
 }
+
+
+.about-list {
+
+    list-style:none;
+
+    padding:0;
+
+}
+
+
+.about-list li {
+
+    margin:15px 0;
+
+}
+
 
 
 /* =========================
    Contact
 ========================= */
 
-.contact {
-    text-align: center;
-    padding: 80px 20px;
+.contact-page {
+
+    max-width:700px;
+
+    margin:80px auto;
+
+    padding:0 20px;
+
+    text-align:center;
+
 }
 
 
-.contact h2 {
-    font-weight: normal;
+.contact-list {
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:40px;
+
+    flex-wrap:wrap;
+
 }
 
-
-.contact p {
-    color: #555;
-}
-
-
-.button {
-    display: inline-block;
-
-    padding: 12px 35px;
-    margin-top: 30px;
-
-    border: 1px solid #333;
-    border-radius: 8px;
-
-    color: #333;
-    text-decoration: none;
-
-    transition: 0.3s;
-}
-
-
-.button:hover {
-    background: #333;
-    color: white;
-}
 
 
 /* =========================
-   詳細ページ
+   World
 ========================= */
 
-.work-detail {
-    max-width: 700px;
-    margin: 80px auto;
-    padding: 0 60px;
-    box-sizing: border-box;
+.world-page {
+
+    max-width:700px;
+
+    margin:80px auto;
+
+    padding:0 20px;
+
+    text-align:center;
+
 }
 
 
-.work-detail img {
-    display: block;
+.world-text {
 
-    width: 100%;
-    max-width: 400px;
+    font-size:22px;
 
-    margin: 0 auto 50px;
-    border-radius: 12px;
+    color:#444;
+
 }
 
-
-.work-detail h2 {
-    margin-top: 70px;
-    margin-bottom: 25px;
-    font-weight: normal;
-}
-
-
-.work-detail p {
-    color: #555;
-    margin-bottom: 40px;
-}
 
 
 /* =========================
@@ -268,26 +404,32 @@ header {
 ========================= */
 
 footer {
-    text-align: center;
-    color: #888;
 
-    font-size: 14px;
+    text-align:center;
 
-    padding: 40px 0;
+    color:#888;
 
-    border-top: 1px solid #eee;
+    font-size:14px;
+
+    padding:40px 0;
+
+    border-top:1px solid #eee;
+
 }
-
 /* =========================
-   PC検索バー
+   検索バー
 ========================= */
 
-.search{
+.search {
+
     margin-left:auto;
+
     margin-right:20px;
+
 }
 
-.search input{
+
+.search input {
 
     width:220px;
 
@@ -304,382 +446,134 @@ footer {
 }
 
 
+
 /* =========================
    検索結果
 ========================= */
 
 #searchResults {
-    max-width: 600px;
-    margin: 40px auto;
+
+    max-width:600px;
+
+    margin:40px auto;
+
 }
+
 
 
 .result-card {
 
-    background: white;
+    background:white;
 
-    border: 1px solid #ddd;
-    border-radius: 20px;
-
-    padding: 25px;
-
-    text-align: center;
-
-    margin-bottom: 20px;
-}
-
-
-.result-card a {
-
-    display: inline-block;
-
-    margin-top: 15px;
-
-    padding: 12px 30px;
-
-    border: 1px solid #333;
-    border-radius: 30px;
-
-    color: #333;
-
-    text-decoration: none;
-}
-
-
-/* =========================
-   フェード表示
-========================= */
-
-.hero,
-.work-card,
-.contact,
-footer {
-
-    opacity: 0;
-
-    transform: translateY(30px);
-
-    animation: fadeUp 0.8s ease forwards;
-}
-
-
-.hero {
-    animation-delay: 0.1s;
-}
-
-
-.work-card:nth-child(2) {
-    animation-delay: 0.3s;
-}
-
-
-.work-card:nth-child(3) {
-    animation-delay: 0.5s;
-}
-
-
-.contact {
-    animation-delay: 0.7s;
-}
-
-
-@keyframes fadeUp {
-
-    from {
-
-        opacity: 0;
-
-        transform: translateY(30px);
-
-    }
-
-
-    to {
-
-        opacity: 1;
-
-        transform: translateY(0);
-
-    }
-
-}
-
-
-
-/* =========================
-   スマホ表示
-========================= */
-
-
-
-
-
-/* ===== ナビゲーション ===== */
-
-.menu {
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-    margin-top: 25px;
-    flex-wrap: wrap;
-}
-
-.menu a {
-    text-decoration: none;
-    color: #555;
-    font-size: 15px;
-    transition: .3s;
-}
-
-.menu a:hover {
-    color: #000;
-}
-/* ===== News ===== */
-
-.news-preview {
-    max-width: 700px;
-    margin: 100px auto;
-    padding: 0 20px;
-    text-align: center;
-}
-
-.news-preview h2 {
-    font-weight: normal;
-    margin-bottom: 40px;
-}
-
-.news-item {
-    padding: 20px 0;
-    border-bottom: 1px solid #eee;
-}
-
-.news-item .date {
-    color: #888;
-    font-size: 14px;
-    margin-bottom: 5px;
-}
-/* ===== Works Page ===== */
-
-.works-page{
-
-max-width:1000px;
-
-margin:80px auto;
-
-padding:0 20px;
-
-text-align:center;
-
-}
-
-.works-text{
-
-color:#666;
-
-margin-bottom:50px;
-
-}
-
-.works-grid{
-
-display:grid;
-
-grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
-
-gap:30px;
-
-}
-/* ===== About ===== */
-
-.about-page{
-    max-width:700px;
-    margin:80px auto;
-    padding:0 20px;
-    text-align:center;
-}
-
-.about-page h1{
-    margin-bottom:40px;
-}
-
-.about-page h2{
-    margin-top:60px;
-}
-
-.about-list{
-    list-style:none;
-    padding:0;
-}
-
-.about-list li{
-    margin:15px 0;
-}
-/* ===== Contact Page ===== */
-
-.contact-page{
-    max-width:700px;
-    margin:80px auto;
-    padding:0 20px;
-    text-align:center;
-}
-
-.contact-page h1{
-    margin-bottom:40px;
-}
-
-.contact-list{
-    display:flex;
-    justify-content:center;
-    gap:40px;
-    flex-wrap:wrap;
-    margin-top:40px;
-}
-/* ===== News Page ===== */
-
-.news-page{
-    max-width:800px;
-    margin:80px auto;
-    padding:0 20px;
-}
-
-.news-page h1{
-    text-align:center;
-    margin-bottom:50px;
-}
-
-.news-card{
-    border:1px solid #eee;
-    border-radius:15px;
-    padding:30px;
-    margin-bottom:30px;
-    background:#fff;
-}
-
-.news-date{
-    color:#888;
-    font-size:14px;
-    margin-bottom:10px;
-}
-/* ===== World ===== */
-
-.world-page{
-    max-width:700px;
-    margin:80px auto;
-    padding:0 20px;
-    text-align:center;
-}
-
-.world-page h1{
-    margin-bottom:50px;
-}
-
-.world-text{
-    font-size:22px;
-    margin-bottom:40px;
-    color:#444;
-}
-
-.world-page p{
-    line-height:2;
-    color:#666;
-}
-/* ===== Profile Card ===== */
-
-.profile-card{
-
-    max-width:400px;
-
-    margin:50px auto;
-
-    padding:40px 30px;
-
-    border:1px solid #eee;
+    border:1px solid #ddd;
 
     border-radius:20px;
 
+    padding:25px;
+
     text-align:center;
-
-    background:white;
-
-}
-
-
-.profile-card img{
-
-    width:200px;
-    height:200px;
-
-    border-radius:15px;
-
-    object-fit:cover;
 
     margin-bottom:20px;
 
 }
 
 
-.profile-card h2{
+.result-card a {
+
+    display:inline-block;
+
+    margin-top:15px;
+
+    padding:12px 30px;
+
+    border:1px solid #333;
+
+    border-radius:30px;
+
+    color:#333;
+
+    text-decoration:none;
+
+}
+
+
+
+/* =========================
+   作品詳細ページ
+========================= */
+
+.work-detail {
+
+    max-width:700px;
+
+    margin:80px auto;
+
+    padding:0 60px;
+
+    box-sizing:border-box;
+
+}
+
+
+.work-detail img {
+
+    display:block;
+
+    width:100%;
+
+    max-width:400px;
+
+    margin:0 auto 50px;
+
+    border-radius:12px;
+
+}
+
+
+.work-detail h2 {
+
+    margin-top:70px;
+
+    margin-bottom:25px;
 
     font-weight:normal;
 
 }
 
 
-.sns-links{
+.work-detail p {
 
-    margin-top:30px;
+    color:#555;
 
-}
-
-
-.sns-links a{
-
-    display:block;
-
-    padding:15px;
-
-    margin:15px 0;
-
-    border:1px solid #ddd;
-
-    border-radius:12px;
-
-    text-decoration:none;
-
-    color:#333;
-
-    transition:.3s;
+    margin-bottom:40px;
 
 }
 
 
-.sns-links a:hover{
 
-    background:#f5f5f5;
+/* =========================
+   ハンバーガーボタン
+========================= */
 
-}/* ===== Hamburger Menu ===== */
-
-/* ===== Hamburger Menu ===== */
-
-.menu-button{
+.menu-button {
 
     width:40px;
+
     height:30px;
-   
- flex-shrink:0;
-   
+
     border:none;
+
     background:none;
 
     cursor:pointer;
 
     z-index:1000;
 
-    
 }
 
 
-.menu-button span{
+
+.menu-button span {
 
     display:block;
 
@@ -694,7 +588,8 @@ gap:30px;
 }
 
 
-/* 開いた状態 */
+
+/* 開いた時 */
 
 .menu-button.active span:nth-child(1){
 
@@ -718,8 +613,11 @@ gap:30px;
 
 
 
+/* =========================
+   メニュー画面
+========================= */
 
-.menu-panel{
+.menu-panel {
 
     position:fixed;
 
@@ -744,14 +642,16 @@ gap:30px;
 }
 
 
-.menu-panel.open{
+
+.menu-panel.open {
 
     right:0;
 
 }
 
 
-.menu-panel a{
+
+.menu-panel a {
 
     display:block;
 
@@ -765,202 +665,150 @@ gap:30px;
 
 }
 /* =========================
-   スマホ表示 最終調整
+   スマホ表示
 ========================= */
 
 @media screen and (max-width:600px){
 
-    header{
-        height:140px;
-        position:relative;
-        padding:30px 15px;
-    }
+
+/* Header */
+
+header {
+
+    height:140px;
+
+    padding:30px 15px;
+
+}
 
 
-    /* ロゴ */
-    .logo{
-        position:absolute;
-        left:20px;
-        top:20px;
+/* ロゴ */
 
-        font-size:18px;
-        white-space:nowrap;
-    }
+.logo {
 
+    position:absolute;
 
-    /* 三本線 */
-    .menu-button{
-        position:absolute;
+    left:20px;
 
-        right:20px;
-        top:20px;
+    top:20px;
 
-        width:40px;
-        height:30px;
+    font-size:18px;
 
-        border:none;
-        background:none;
-
-        cursor:pointer;
-
-        z-index:10000;
-    }
-
-
-    .menu-button span{
-
-        display:block;
-
-        height:2px;
-
-        background:#333;
-
-        margin:7px 0;
-
-        transition:.3s;
-    }
-
-
-    /* ×になる動き */
-    .menu-button.active span:nth-child(1){
-
-        transform:translateY(9px) rotate(45deg);
-
-    }
-
-
-    .menu-button.active span:nth-child(2){
-
-        opacity:0;
-
-    }
-
-
-    .menu-button.active span:nth-child(3){
-
-        transform:translateY(-9px) rotate(-45deg);
-
-    }
+}
 
 
 
-    /* 検索バー */
-    .search{
+/* ハンバーガー */
 
-        position:absolute;
+.menu-button {
 
-        right:10px;
-        top:75px;
+    position:absolute;
 
-        transform:none;
+    right:20px;
 
-    }
+    top:20px;
 
-.search input{
+}
+
+
+
+/* 検索バー */
+
+.search {
+
+    position:absolute;
+
+    right:10px;
+
+    top:75px;
+
+    margin:0;
+
+}
+
+
+.search input {
 
     width:160px;
 
-    padding:12px 18px;
+}
 
-    border:1px solid #ddd;
 
-    border-radius:30px;
 
-    outline:none;
+/* メニュー */
 
-    font-size:14px;
+.menu-panel {
+
+    width:280px;
 
 }
 
 
-    /* メニュー */
-    .menu-panel{
 
-        width:280px;
+/* Works */
 
-    }
-
-    .work-card{
-        padding:15px;
-        margin-bottom:20px;
-        min-height:0;
-    }
-   .coming-soon{
-    min-height:120px;
-}
-@media screen and (max-width:600px){
-
-    .work-card img{
-
-        width:100%;
-        max-width:250px;
-        height:auto;
-
-        margin-bottom:15px;
-
-    }
-
-
-    .work-card{
-
-        padding:15px;
-
-    }
-
-
-    .coming-soon{
-
-        min-height:150px;
-
-    }
-
-}
-@media screen and (max-width:600px){
-
-    .works{
-
-        display:block;
-
-        padding:0 15px;
-
-    }
-
-
-    .work-card{
-
-        width:100%;
-
-        margin-bottom:30px;
-
-        padding:20px;
-
-        box-sizing:border-box;
-
-    }
-
-
-    .work-card img{
-
-        width:100%;
-
-        max-width:300px;
-
-        height:auto;
-
-    }
-
-}
-/* 作品画像サイズ統一 */
-
-.work-card img{
-
-    width:300px;
-    height:400px;
-
-    object-fit:contain;
+.works {
 
     display:block;
 
-    margin:0 auto 25px;
+    padding:0 15px;
+
+}
+
+
+
+.work-card {
+
+    width:100%;
+
+    box-sizing:border-box;
+
+    padding:20px;
+
+    margin-bottom:30px;
+
+}
+
+
+
+/* ★スマホ画像サイズ */
+
+.work-card img {
+
+    width:250px;
+
+    height:330px;
+
+    object-fit:contain;
+
+}
+
+
+
+/* Coming Soon */
+
+.coming-soon {
+
+    min-height:150px;
+
+}
+
+
+
+/* 詳細ページ */
+
+.work-detail {
+
+    padding:0 20px;
+
+}
+
+
+.work-detail img {
+
+    max-width:300px;
+
+}
+
 
 }
