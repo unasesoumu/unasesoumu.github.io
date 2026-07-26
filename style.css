@@ -970,3 +970,11 @@ gap:30px;
     margin:0 auto 25px;
 
 }
+/* 作品画像サイズ統一 */
+.work-card img{
+    width:300px !important;
+    height:420px !important;
+    object-fit:contain !important;
+    display:block;
+    margin:0 auto 25px;
+}
