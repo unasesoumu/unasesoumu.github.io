@@ -950,3 +950,14 @@ gap:30px;
     }
 
 }
+.work-card img{
+
+    width:100%;
+
+    max-width:500px;
+
+    display:block;
+
+    margin:0 auto 25px;
+
+}
