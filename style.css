@@ -773,13 +773,19 @@ header {
 
 /* ★スマホ画像サイズ */
 
+/* 作品画像サイズ */
+
 .work-card img {
 
-    width:250px;
+    width:100%;
 
-    height:330px;
+    max-width:300px;
 
-    object-fit:contain;
+    height:auto;
+
+    display:block;
+
+    margin:0 auto 25px;
 
 }
 
