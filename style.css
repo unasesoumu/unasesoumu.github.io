@@ -843,3 +843,17 @@ header {
     }
 
 }
+.work-card img {
+
+    width:240px;
+    height:340px;
+
+    object-fit:contain;
+
+    display:block;
+
+    margin:0 auto 25px;
+
+    border-radius:12px;
+
+}
