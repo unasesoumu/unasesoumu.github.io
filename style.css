@@ -312,7 +312,7 @@ header {
 }
 
 .about-page img {
-    width: 220px;      /* 好きな大きさに変更OK */
+    width: 180px;      /* 好きな大きさに変更OK */
     height: auto;
     display: block;
     margin: 30px auto;
