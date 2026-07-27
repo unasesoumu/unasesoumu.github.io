@@ -958,3 +958,7 @@ header {
 .work-card:nth-child(2) img {
     transform: scale(1.1);
 }
+.work-card:nth-child(2) img {
+    width: 110%;
+    max-width: none;
+}
