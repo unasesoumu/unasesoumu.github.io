@@ -893,3 +893,30 @@ header {
     margin: 0 auto;
     padding: 20px;
 }
+/* ホーム画面の作品 */
+.works .image-box {
+    width: 340px;
+    height: 480px;
+}
+
+.works .image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+/* Works画面 */
+.works-page .image-box {
+    width: 240px;
+    height: 340px;
+}
+
+.works-page .image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.works-page .work-card {
+    max-width: 360px;
+    margin: 0 auto;
+    padding: 20px;
+}
