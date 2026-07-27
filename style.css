@@ -955,3 +955,6 @@ header {
     object-fit: contain;
     border-radius: 12px;
 }
+.work-card:nth-child(2) img {
+    transform: scale(1.1);
+}
