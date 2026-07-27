@@ -135,21 +135,15 @@ header {
 /* ボタン */
 
 .work-button {
+    display: inline-block;
+    padding: 12px 25px;
+    margin-top: 20px;
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 8px;
 
-    display:inline-block;
-
-    padding:12px 25px;
-
-    margin-top:20px;
-
-    background:#f5f5f5;
-
-    border:1px solid #ddd;
-
-    border-radius:8px;
-
+    white-space: nowrap;
 }
-
 
 .work-card p {
 
