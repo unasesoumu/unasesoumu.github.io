@@ -894,3 +894,11 @@ header {
     border-radius:12px;
 
 }
+.work-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.work-button {
+    color: #333;
+}
