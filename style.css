@@ -962,3 +962,9 @@ header {
     width: 110%;
     max-width: none;
 }
+/* Works画像サイズ調整 */
+.work-card img {
+    width:360px;
+    height:260px;
+    object-fit:contain;
+}
