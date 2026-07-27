@@ -901,7 +901,8 @@ header {
     margin: 0 auto;
     padding: 20px;
 }
-/* ホーム画面の作品 */
+
+   /* ホーム画面の作品 */
 .works .image-box {
     width: 320px;
     height: 450px;
@@ -912,7 +913,8 @@ header {
     height: 100%;
     object-fit: contain;
 }
-/* Works画面 */
+
+/* Worksページ */
 .works-page .image-box {
     width: 240px;
     height: 340px;
@@ -923,6 +925,7 @@ header {
     height: 100%;
     object-fit: contain;
 }
+
 .works-page .work-card {
     max-width: 360px;
     margin: 0 auto;
