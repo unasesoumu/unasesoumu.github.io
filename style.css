@@ -222,45 +222,37 @@ header {
    News
 ========================= */
 
-.news-preview {
+/* Newsページ */
 
-    max-width:700px;
-
-    margin:100px auto;
-
-    padding:0 20px;
-
-    text-align:center;
-
+.news-page {
+    max-width: 800px;
+    margin: 80px auto;
+    padding: 0 40px;
 }
 
-
-.news-preview h2 {
-
-    font-weight:normal;
-
-    margin-bottom:40px;
-
+.news-page h1 {
+    text-align: center;
+    margin-bottom: 60px;
 }
-
 
 .news-item {
-
-    padding:20px 0;
-
-    border-bottom:1px solid #eee;
-
+    text-align: left;
+    margin-bottom: 60px;
 }
-
 
 .news-item .date {
-
-    color:#888;
-
-    font-size:14px;
-
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 10px;
 }
 
+.news-item h2 {
+    margin: 0 0 20px;
+}
+
+.news-item p {
+    margin: 0;
+}
 
 /* =========================
    共通ボタン
