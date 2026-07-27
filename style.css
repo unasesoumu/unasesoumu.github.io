@@ -968,3 +968,8 @@ header {
     height:260px;
     object-fit:contain;
 }
+.works-grid .work-card img {
+    width:360px;
+    height:260px;
+    object-fit:contain;
+}
