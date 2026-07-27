@@ -888,15 +888,23 @@ header {
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
 }
-.work-card {
+/* ホーム画面 */
+.works .work-card {
     max-width: 420px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Works画面 */
+.works-page .work-card {
+    max-width: 360px;
     margin: 0 auto;
     padding: 20px;
 }
 /* ホーム画面の作品 */
 .works .image-box {
-    width: 340px;
-    height: 480px;
+    width: 320px;
+    height: 450px;
 }
 
 .works .image-box img {
