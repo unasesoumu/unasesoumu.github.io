@@ -853,3 +853,10 @@ header {
 .work-link:hover {
     color: #333;
 }
+.work-link,
+.work-link:visited,
+.work-link:hover,
+.work-link:active {
+    color: #333;
+    text-decoration: none;
+}
