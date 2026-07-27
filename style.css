@@ -860,3 +860,15 @@ header {
     color: #333;
     text-decoration: none;
 }
+.work-link,
+.work-link:link,
+.work-link:visited,
+.work-link:hover,
+.work-link:active {
+    color: #333 !important;
+    text-decoration: none !important;
+}
+
+.work-button {
+    color: #333 !important;
+}
