@@ -937,3 +937,21 @@ header {
  
 }
 
+/* Works画像 横長で統一 */
+
+.work-card .image-box {
+    width: 360px;
+    height: 260px;
+    margin: 0 auto 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-card .image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 12px;
+}
