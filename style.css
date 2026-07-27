@@ -967,13 +967,12 @@ header {
 }
 /* Newsページ */
 
-.news-page {
+.news-preview {
     max-width: 700px;
-    margin: 80px auto;
-    padding: 0 20px;
-    text-align: center;
+    margin: 100px auto;
+    padding: 0 40px;   /* 20px → 40px */
+    text-align: left;
 }
-
 .news-page h1,
 .news-page p {
     text-align: center;
