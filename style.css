@@ -975,3 +975,36 @@ header {
 .news-page p {
     text-align: center;
 }
+/* ===== Newsページ ===== */
+
+.news-page {
+    max-width: 900px;
+    margin: 80px auto;
+    padding: 0 40px;
+}
+
+.news-page h1 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.news-item {
+    margin-bottom: 70px;
+}
+
+.news-item h2 {
+    text-align: left;
+    margin-left: 20px;   /* 左に少し余白 */
+}
+
+.news-item .date {
+    text-align: center;
+    color: #777;
+    margin: 15px 0 30px;
+}
+
+.news-item p {
+    text-align: left;
+    margin-left: 20px;   /* 左に少し余白 */
+    line-height: 2;
+}
