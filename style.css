@@ -923,3 +923,24 @@ header {
     object-fit: contain;
     border-radius: 12px;
 }
+/* Works 画像統一 */
+
+.work-card .image-box {
+    width: 280px;
+    height: 390px;
+    margin: 0 auto 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #fafafa;
+}
+
+.work-card .image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+    border-radius: 12px;
+}
