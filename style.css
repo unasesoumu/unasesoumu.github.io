@@ -931,3 +931,26 @@ header {
     margin: 0 auto;
     padding: 20px;
 }
+/* ホーム */
+.works .image-box {
+    width: 320px;
+    height: 450px;
+}
+
+.works .image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Worksページ */
+.works-page .image-box {
+    width: 240px;
+    height: 340px;
+}
+
+.works-page .image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
