@@ -965,3 +965,16 @@ header {
     height: 100%;
     object-fit: contain;
 }
+/* Newsページ */
+
+.news-page {
+    max-width: 700px;
+    margin: 80px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.news-page h1,
+.news-page p {
+    text-align: center;
+}
