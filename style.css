@@ -1125,3 +1125,15 @@ header {
     }
 
 }
+@media screen and (min-width:601px){
+
+    .works-page .work-button {
+        display: flex !important;
+        justify-content: flex-start !important;
+        align-items: center;
+
+        padding-left: 25px !important;
+        text-align: left !important;
+    }
+
+}
