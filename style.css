@@ -136,22 +136,25 @@ header {
 
 .work-button {
     display: inline-block;
+
     padding: 12px 20px;
     margin-top: 20px;
+
     background: #f5f5f5;
     border: 1px solid #ddd;
     border-radius: 8px;
 
-    color: #333;
+    color: #333 !important;
     text-align: center;
+    text-decoration: none;
 
     width: 100%;
-    max-width: 280px;
+    max-width: 380px;
+
     box-sizing: border-box;
 
-    white-space: normal;
+    white-space: nowrap;
 }
-
 .work-card p {
 
     color:#555;
@@ -1048,4 +1051,19 @@ header {
     text-align: left;
     margin: 0 0 12px;
     line-height: 2;
+}
+@media screen and (max-width:600px){
+
+    .works-grid {
+        display:block;
+    }
+
+}
+@media screen and (max-width:600px){
+
+    .work-button {
+        font-size:14px;
+        max-width:100%;
+    }
+
 }
