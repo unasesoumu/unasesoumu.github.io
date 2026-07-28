@@ -1160,3 +1160,16 @@ header {
 .works .work-card:nth-of-type(2) .work-button {
     text-indent: 0 !important;
 }
+/* ホームのまたのお越しだけ左寄せ */
+@media screen and (min-width:601px){
+
+    .works .work-card:first-of-type .work-button {
+        text-indent: -15px !important;
+    }
+
+    /* ホームのThe last notesは中央 */
+    .works .work-card:nth-child(2) .work-button {
+        text-indent: 0 !important;
+    }
+
+}
