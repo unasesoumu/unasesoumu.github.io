@@ -1173,3 +1173,10 @@ header {
     }
 
 }
+/* ホームのボタン文字を中央 */
+.works .work-button {
+    text-align: center !important;
+    text-indent: 0 !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
