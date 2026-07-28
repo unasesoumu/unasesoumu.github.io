@@ -524,6 +524,10 @@ footer {
 
     box-sizing:border-box;
 
+    text-align:center;
+}
+.work-detail p {
+    text-align:left;
 }
 
 
