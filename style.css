@@ -1149,3 +1149,7 @@ header {
 .work-card:nth-child(2) .work-button {
     text-indent: 0 !important;
 }
+/* ホーム画面のThe last notesボタンを中央 */
+.works .work-card:nth-child(2) .work-button {
+    text-indent: 0 !important;
+}
