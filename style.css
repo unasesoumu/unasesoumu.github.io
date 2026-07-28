@@ -136,13 +136,20 @@ header {
 
 .work-button {
     display: inline-block;
-    padding: 12px 25px;
+    padding: 12px 20px;
     margin-top: 20px;
     background: #f5f5f5;
     border: 1px solid #ddd;
     border-radius: 8px;
 
-    white-space: nowrap;
+    color: #333;
+    text-align: center;
+
+    width: 100%;
+    max-width: 280px;
+    box-sizing: border-box;
+
+    white-space: normal;
 }
 
 .work-card p {
