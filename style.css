@@ -158,7 +158,23 @@ header {
 
 }
 
+.work-button {
+    display: inline-block;
+    width: 100%;
+    max-width: 380px;
 
+    padding: 12px 20px;
+    box-sizing: border-box;
+
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+
+    color: #333;
+
+    white-space: nowrap;
+    overflow: hidden;
+}
 /* スマホ */
 
 @media screen and (max-width:600px){
