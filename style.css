@@ -1073,3 +1073,11 @@ header {
     text-align: left;
     padding-left: 18px;
 }
+@media screen and (max-width:600px){
+
+    .work-button {
+        text-align: center;
+        padding-left: 20px;
+    }
+
+}
