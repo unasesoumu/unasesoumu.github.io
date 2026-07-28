@@ -1081,3 +1081,12 @@ header {
     }
 
 }
+@media screen and (max-width:600px){
+
+    .work-button {
+        text-align: center !important;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+}
