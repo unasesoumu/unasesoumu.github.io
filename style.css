@@ -1180,3 +1180,8 @@ header {
     padding-left: 20px !important;
     padding-right: 20px !important;
 }
+.work-button.the {
+    text-align:center !important;
+    text-indent:0 !important;
+    padding-left:20px !important;
+}
