@@ -1096,3 +1096,10 @@ header {
     }
 
 }
+.work-detail {
+    text-align:center;
+}
+
+.work-detail p {
+    text-align:center;
+}
