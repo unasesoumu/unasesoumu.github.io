@@ -1067,3 +1067,9 @@ header {
     }
 
 }
+/* ボタン文字位置調整 */
+
+.work-button {
+    text-align: left;
+    padding-left: 18px;
+}
