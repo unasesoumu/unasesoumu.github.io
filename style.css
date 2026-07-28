@@ -1153,3 +1153,7 @@ header {
 .works .work-card:nth-child(2) .work-button {
     text-indent: 0 !important;
 }
+/* The last notes は中央に戻す */
+.work-button.the {
+    text-indent: 0 !important;
+}
