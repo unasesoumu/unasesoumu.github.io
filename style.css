@@ -1145,3 +1145,7 @@ header {
     }
 
 }
+/* The last notes のボタンは中央 */
+.work-card:nth-child(2) .work-button {
+    text-indent: 0 !important;
+}
