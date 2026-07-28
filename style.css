@@ -1117,3 +1117,11 @@ header {
     }
 
 }
+@media screen and (min-width:601px){
+
+    .works-page .work-button span {
+        display:inline-block;
+        transform:translateX(-10px);
+    }
+
+}
