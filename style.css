@@ -1197,3 +1197,6 @@ header {
         transform: none !important;
     }
 }
+.work-description {
+    white-space: nowrap;
+}
