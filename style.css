@@ -1200,3 +1200,6 @@ header {
 .work-description {
     white-space: nowrap;
 }
+.works-page .work-card p {
+    white-space: nowrap;
+}
