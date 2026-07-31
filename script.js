@@ -1,49 +1,27 @@
-console.log("読み込みできてる");
 console.log("script読み込みOK");
+
+
+// ====================
+// 作品検索
+// ====================
+
 const searchInput = document.getElementById("searchInput");
-const results = document.getElementById("searchResults");
+const workCards = document.querySelectorAll(".work-card");
 
+if (searchInput && workCards.length > 0) {
 
-if(searchInput && results){
+    searchInput.addEventListener("input", function () {
 
-    searchInput.addEventListener("input", function() {
+        const keyword = this.value.toLowerCase().trim();
 
-        const keyword = this.value.toLowerCase();
+        workCards.forEach(card => {
 
-        results.innerHTML = "";
+            const text = card.textContent.toLowerCase();
 
-        if (keyword === "") {
-            return;
-        }
-
-
-        works.forEach(work => {
-
-            if (
-                work.name.toLowerCase().includes(keyword) ||
-                work.text.toLowerCase().includes(keyword)
-            ) {
-
-                results.innerHTML += `
-
-                <div class="result-card">
-
-                    <h3>
-                        ${work.name}
-                    </h3>
-
-                    <p>
-                        ${work.text}
-                    </p>
-
-                    <a href="${work.url}">
-                        作品ページへ
-                    </a>
-
-                </div>
-
-                `;
-
+            if (text.includes(keyword)) {
+                card.style.display = "";
+            } else {
+                card.style.display = "none";
             }
 
         });
@@ -52,16 +30,19 @@ if(searchInput && results){
 
 }
 
+
+// ====================
+// ハンバーガーメニュー
+// ====================
+
 const menuButton = document.getElementById("menuButton");
 const menuPanel = document.getElementById("menuPanel");
 
+if (menuButton && menuPanel) {
 
-if(menuButton && menuPanel){
-
-    menuButton.addEventListener("click",()=>{
+    menuButton.addEventListener("click", () => {
 
         menuButton.classList.toggle("active");
-
         menuPanel.classList.toggle("open");
 
     });
