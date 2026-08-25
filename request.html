@@ -1,1 +1,387 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <title>ご依頼 | 海瀬奏夢</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family:
+        "Noto Sans JP",
+        "Hiragino Kaku Gothic ProN",
+        sans-serif;
+      background: #f8f7fb;
+      color: #333;
+      line-height: 1.8;
+    }
+
+    header {
+      padding: 25px 20px;
+      text-align: center;
+      background: #ffffff;
+      border-bottom: 1px solid #e5e2eb;
+    }
+
+    header a {
+      color: #333;
+      text-decoration: none;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 26px;
+      letter-spacing: 0.08em;
+    }
+
+    header p {
+      margin: 3px 0 0;
+      font-size: 13px;
+      color: #888;
+    }
+
+    main {
+      width: min(900px, 92%);
+      margin: 50px auto;
+    }
+
+    .title {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .title h2 {
+      font-size: 32px;
+      margin-bottom: 5px;
+    }
+
+    .title p {
+      color: #888;
+      font-size: 14px;
+    }
+
+    section {
+      background: white;
+      padding: 30px;
+      margin-bottom: 25px;
+      border-radius: 18px;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.05);
+    }
+
+    section h3 {
+      margin-top: 0;
+      font-size: 21px;
+      border-left: 4px solid #9c8fbd;
+      padding-left: 12px;
+    }
+
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+    }
+
+    .menu-item {
+      padding: 20px;
+      border: 1px solid #e5e0ed;
+      border-radius: 14px;
+      background: #fcfbff;
+    }
+
+    .menu-item strong {
+      display: block;
+      font-size: 17px;
+      margin-bottom: 5px;
+    }
+
+    .price {
+      color: #8d7cae;
+      font-weight: bold;
+    }
+
+    .flow {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      text-align: center;
+    }
+
+    .flow div {
+      flex: 1;
+      padding: 15px 5px;
+      background: #f7f4fb;
+      border-radius: 12px;
+      font-size: 13px;
+    }
+
+    .flow span {
+      display: block;
+      font-size: 22px;
+      margin-bottom: 5px;
+    }
+
+    label {
+      display: block;
+      margin-top: 18px;
+      margin-bottom: 6px;
+      font-weight: bold;
+    }
+
+    input,
+    select,
+    textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #dcd8e3;
+      border-radius: 10px;
+      font-size: 15px;
+      font-family: inherit;
+      background: #fff;
+    }
+
+    textarea {
+      min-height: 160px;
+      resize: vertical;
+    }
+
+    button {
+      width: 100%;
+      margin-top: 25px;
+      padding: 14px;
+      border: none;
+      border-radius: 12px;
+      background: #8d7cae;
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    button:hover {
+      opacity: 0.85;
+    }
+
+    .note {
+      font-size: 13px;
+      color: #777;
+      background: #f7f6f9;
+      padding: 15px;
+      border-radius: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #999;
+      font-size: 12px;
+    }
+
+    @media (max-width: 600px) {
+      .menu {
+        grid-template-columns: 1fr;
+      }
+
+      .flow {
+        flex-direction: column;
+      }
+
+      section {
+        padding: 22px;
+      }
+
+      .title h2 {
+        font-size: 27px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <a href="index.html">
+    <h1>海瀬奏夢</h1>
+    <p>PORTFOLIO</p>
+  </a>
+</header>
+
+<main>
+
+  <div class="title">
+    <h2>REQUEST</h2>
+    <p>ご依頼について</p>
+  </div>
+
+  <section>
+    <h3>できること</h3>
+
+    <div class="menu">
+
+      <div class="menu-item">
+        <strong>🎨 Graphic Design</strong>
+        ロゴ・バナー・ポスターなど
+        <div class="price">¥500〜</div>
+      </div>
+
+      <div class="menu-item">
+        <strong>💻 Web Design</strong>
+        HTML / CSSを使ったWebページ制作
+        <div class="price">¥3,000〜</div>
+      </div>
+
+      <div class="menu-item">
+        <strong>🎲 TRPG</strong>
+        TRPG用素材・ロゴなど
+        <div class="price">¥500〜</div>
+      </div>
+
+      <div class="menu-item">
+        <strong>📱 SNS Design</strong>
+        SNS用画像・告知画像など
+        <div class="price">¥500〜</div>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <h3>ご依頼の流れ</h3>
+
+    <div class="flow">
+
+      <div>
+        <span>①</span>
+        依頼内容を送る
+      </div>
+
+      <div>
+        <span>②</span>
+        内容・料金を確認
+      </div>
+
+      <div>
+        <span>③</span>
+        制作
+      </div>
+
+      <div>
+        <span>④</span>
+        確認・修正
+      </div>
+
+      <div>
+        <span>⑤</span>
+        納品
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <h3>ご依頼について</h3>
+
+    <p>
+      制作内容・納期・ご予算などを確認したうえで、
+      お引き受けできるか判断させていただきます。
+    </p>
+
+    <div class="note">
+      ※複雑な制作・大規模なWebサイトなどは、
+      内容によって料金が変わる場合があります。
+      <br>
+      ※制作内容によってはお受けできない場合があります。
+    </div>
+  </section>
+
+  <section>
+    <h3>依頼フォーム</h3>
+
+    <form id="requestForm">
+
+      <label>お名前・ハンドルネーム</label>
+      <input type="text" id="name" required>
+
+      <label>メールアドレス</label>
+      <input type="email" id="email" required>
+
+      <label>依頼内容</label>
+
+      <select id="type" required>
+        <option value="">選択してください</option>
+        <option>グラフィックデザイン</option>
+        <option>Web制作</option>
+        <option>TRPG素材</option>
+        <option>SNS画像</option>
+        <option>その他</option>
+      </select>
+
+      <label>希望納期</label>
+      <input type="text" id="deadline" placeholder="例：9月中">
+
+      <label>予算</label>
+      <input type="text" id="budget" placeholder="例：3000円程度">
+
+      <label>依頼内容の詳細</label>
+      <textarea id="message" required
+        placeholder="作ってほしいもの、サイズ、雰囲気、参考URLなどを書いてください。"></textarea>
+
+      <button type="submit">
+        依頼内容を送信する
+      </button>
+
+    </form>
+  </section>
+
+</main>
+
+<footer>
+  © 海瀬奏夢
+</footer>
+
+<script>
+  document.getElementById("requestForm").addEventListener("submit", function(event) {
+
+    event.preventDefault();
+
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const type = document.getElementById("type").value;
+    const deadline = document.getElementById("deadline").value;
+    const budget = document.getElementById("budget").value;
+    const message = document.getElementById("message").value;
+
+    const subject = encodeURIComponent(
+      "【依頼】" + type
+    );
+
+    const body = encodeURIComponent(
+      "お名前：" + name + "\n" +
+      "メールアドレス：" + email + "\n" +
+      "依頼内容：" + type + "\n" +
+      "希望納期：" + deadline + "\n" +
+      "予算：" + budget + "\n\n" +
+      "詳細：\n" + message
+    );
+
+    /*
+      ↓↓↓ここを自分のメールアドレスに変更↓↓↓
+    */
+
+    const myEmail = "liannaidanshenggu17@gmail.com";
+
+    window.location.href =
+      "mailto:" + myEmail +
+      "?subject=" + subject +
+      "&body=" + body;
+
+  });
+</script>
+
+</body>
+</html>
