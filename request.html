@@ -389,3 +389,87 @@
 </body>
 </html>
 <script src="./script.js"></script>
+/* =========================
+   REQUEST ヘッダー
+========================= */
+
+header {
+    position: relative !important;
+    padding: 40px 30px !important;
+    border-bottom: 1px solid #eee !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+
+    text-align: left !important;
+}
+
+/* ロゴ */
+header .logo {
+    text-decoration: none !important;
+    color: #333 !important;
+    font-size: 32px !important;
+    font-weight: 500 !important;
+    white-space: nowrap !important;
+    margin-left: 20px !important;
+}
+
+/* 検索 */
+header .search {
+    margin-left: auto !important;
+    margin-right: 20px !important;
+}
+
+/* 三本線 */
+header .menu-button {
+    width: 40px !important;
+    height: 30px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+    background: none !important;
+}
+
+/* 三本線 */
+header .menu-button span {
+    display: block !important;
+    width: 100% !important;
+    height: 2px !important;
+    background: #333 !important;
+    margin: 7px 0 !important;
+}
+
+/* スマホ */
+@media screen and (max-width: 600px) {
+
+    header {
+        height: 140px !important;
+        padding: 30px 15px !important;
+    }
+
+    header .logo {
+        position: absolute !important;
+        left: 20px !important;
+        top: 20px !important;
+        margin: 0 !important;
+        font-size: 18px !important;
+    }
+
+    header .menu-button {
+        position: absolute !important;
+        right: 20px !important;
+        top: 20px !important;
+    }
+
+    header .search {
+        position: absolute !important;
+        right: 10px !important;
+        top: 75px !important;
+        margin: 0 !important;
+    }
+
+    header .search input {
+        width: 160px !important;
+    }
+}
