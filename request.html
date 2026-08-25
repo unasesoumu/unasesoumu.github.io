@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>ご依頼 | 海瀬奏夢</title>
-<link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="style.css">
+
   <style>
+
     * {
       box-sizing: border-box;
     }
@@ -21,9 +25,6 @@
       color: #333;
       line-height: 1.8;
     }
-
- 
-   
 
     main {
       width: min(900px, 92%);
@@ -129,7 +130,8 @@
       resize: vertical;
     }
 
-    button {
+    /* 依頼フォームの送信ボタンだけ */
+    #requestForm button {
       width: 100%;
       margin-top: 25px;
       padding: 14px;
@@ -142,7 +144,7 @@
       cursor: pointer;
     }
 
-    button:hover {
+    #requestForm button:hover {
       opacity: 0.85;
     }
 
@@ -162,6 +164,7 @@
     }
 
     @media (max-width: 600px) {
+
       .menu {
         grid-template-columns: 1fr;
       }
@@ -177,119 +180,11 @@
       .title h2 {
         font-size: 27px;
       }
+
     }
+
   </style>
-  /* =========================
-   ヘッダーを他ページと統一
-========================= */
 
-header {
-    position: relative !important;
-    padding: 40px 30px !important;
-    background: #fff !important;
-    border-bottom: 1px solid #eee !important;
-
-    display: flex !important;
-    align-items: center !important;
-    justify-content: space-between !important;
-}
-
-/* ロゴ */
-header .logo {
-    margin-left: 20px !important;
-    color: #333 !important;
-    font-size: 32px !important;
-    font-weight: 500 !important;
-    text-decoration: none !important;
-    white-space: nowrap !important;
-}
-
-/* 検索バー */
-header .search {
-    margin-left: auto !important;
-    margin-right: 20px !important;
-}
-
-header .search input {
-    width: 220px !important;
-    padding: 12px 18px !important;
-    margin: 0 !important;
-
-    border: 1px solid #ddd !important;
-    border-radius: 30px !important;
-
-    outline: none !important;
-    font-size: 14px !important;
-}
-
-/* 三本線ボタン */
-header .menu-button {
-    width: 40px !important;
-    height: 30px !important;
-
-    margin: 0 !important;
-    padding: 0 !important;
-
-    border: none !important;
-    background: none !important;
-
-    cursor: pointer !important;
-}
-
-header .menu-button span {
-    display: block !important;
-
-    width: 100% !important;
-    height: 2px !important;
-
-    margin: 7px 0 !important;
-
-    background: #333 !important;
-
-    transition: .3s !important;
-}
-
-
-/* =========================
-   スマホ
-========================= */
-
-@media screen and (max-width: 600px) {
-
-    header {
-        height: 140px !important;
-        padding: 30px 15px !important;
-    }
-
-    header .logo {
-        position: absolute !important;
-        left: 20px !important;
-        top: 20px !important;
-
-        margin: 0 !important;
-
-        font-size: 18px !important;
-    }
-
-    header .menu-button {
-        position: absolute !important;
-        right: 20px !important;
-        top: 20px !important;
-    }
-
-    header .search {
-        position: absolute !important;
-        right: 10px !important;
-        top: 75px !important;
-
-        margin: 0 !important;
-    }
-
-    header .search input {
-        width: 160px !important;
-    }
-
-}
 </head>
 
 <body>
@@ -302,9 +197,9 @@ header .menu-button span {
 
     <div class="search">
         <input 
-        type="text" 
-        id="searchInput" 
-        placeholder="作品を検索">
+            type="text" 
+            id="searchInput" 
+            placeholder="作品を検索">
     </div>
 
     <button class="menu-button" id="menuButton" type="button">
@@ -327,6 +222,8 @@ header .menu-button span {
     </nav>
 
 </header>
+
+
 <main>
 
   <div class="title">
@@ -334,39 +231,71 @@ header .menu-button span {
     <p>ご依頼について</p>
   </div>
 
+
   <section>
+
     <h3>お作りできる製品</h3>
 
     <div class="menu">
 
       <div class="menu-item">
-        <strong> Graphic Design</strong>
+
+        <strong>Graphic Design</strong>
+
         ロゴ・バナー・ポスターなど
-        <div class="price">¥500〜</div>
+
+        <div class="price">
+          ¥500〜
+        </div>
+
       </div>
 
+
       <div class="menu-item">
-        <strong> Web Design</strong>
+
+        <strong>Web Design</strong>
+
         HTML / CSSを使ったWebページ制作
-        <div class="price">¥3,000〜</div>
+
+        <div class="price">
+          ¥3,000〜
+        </div>
+
       </div>
 
+
       <div class="menu-item">
-        <strong> TRPG</strong>
+
+        <strong>TRPG</strong>
+
         TRPG用素材・ロゴ・シナリオなど
-        <div class="price">¥500〜</div>
+
+        <div class="price">
+          ¥500〜
+        </div>
+
       </div>
 
+
       <div class="menu-item">
-        <strong> SNS Design</strong>
+
+        <strong>SNS Design</strong>
+
         SNS用画像・告知画像など
-        <div class="price">¥500〜</div>
+
+        <div class="price">
+          ¥500〜
+        </div>
+
       </div>
 
     </div>
+
   </section>
 
+
   <section>
+
     <h3>ご依頼の流れ</h3>
 
     <div class="flow">
@@ -397,9 +326,12 @@ header .menu-button span {
       </div>
 
     </div>
+
   </section>
 
+
   <section>
+
     <h3>ご依頼について</h3>
 
     <p>
@@ -408,179 +340,174 @@ header .menu-button span {
     </p>
 
     <div class="note">
+
       ※複雑な制作・大規模なWebサイトなどは、
       内容によって料金が変わる場合があります。
+
       <br>
+
       ※制作内容によってはお受けできない場合があります。
+
     </div>
+
   </section>
 
+
   <section>
+
     <h3>依頼フォーム</h3>
 
     <form id="requestForm">
 
       <label>お名前・ハンドルネーム</label>
-      <input type="text" id="name" required>
+
+      <input
+        type="text"
+        id="name"
+        required
+      >
+
 
       <label>メールアドレス</label>
-      <input type="email" id="email" required>
+
+      <input
+        type="email"
+        id="email"
+        required
+      >
+
 
       <label>依頼内容</label>
 
       <select id="type" required>
-        <option value="">選択してください</option>
-        <option>グラフィックデザイン</option>
-        <option>Web制作</option>
-        <option>TRPG素材</option>
-        <option>SNS画像</option>
-        <option>その他</option>
+
+        <option value="">
+          選択してください
+        </option>
+
+        <option>
+          グラフィックデザイン
+        </option>
+
+        <option>
+          Web制作
+        </option>
+
+        <option>
+          TRPG素材
+        </option>
+
+        <option>
+          SNS画像
+        </option>
+
+        <option>
+          その他
+        </option>
+
       </select>
 
+
       <label>希望納期</label>
-      <input type="text" id="deadline" placeholder="例：9月中">
+
+      <input
+        type="text"
+        id="deadline"
+        placeholder="例：9月中"
+      >
+
 
       <label>予算</label>
-      <input type="text" id="budget" placeholder="例：3000円程度">
+
+      <input
+        type="text"
+        id="budget"
+        placeholder="例：3000円程度"
+      >
+
 
       <label>依頼内容の詳細</label>
-      <textarea id="message" required
-        placeholder="作ってほしいもの、サイズ、雰囲気、参考URLなどを書いてください。"></textarea>
+
+      <textarea
+        id="message"
+        required
+        placeholder="作ってほしいもの、サイズ、雰囲気、参考URLなどを書いてください。"
+      ></textarea>
+
 
       <button type="submit">
         依頼内容を送信する
       </button>
 
     </form>
+
   </section>
 
 </main>
+
 
 <footer>
   © Unase Soumu
 </footer>
 
+
 <script>
-  document.getElementById("requestForm").addEventListener("submit", function(event) {
 
-    event.preventDefault();
+  document
+    .getElementById("requestForm")
+    .addEventListener("submit", function(event) {
 
-    const name = document.getElementById("name").value;
-    const email = document.getElementById("email").value;
-    const type = document.getElementById("type").value;
-    const deadline = document.getElementById("deadline").value;
-    const budget = document.getElementById("budget").value;
-    const message = document.getElementById("message").value;
+      event.preventDefault();
 
-    const subject = encodeURIComponent(
-      "【依頼】" + type
-    );
+      const name =
+        document.getElementById("name").value;
 
-    const body = encodeURIComponent(
-      "お名前：" + name + "\n" +
-      "メールアドレス：" + email + "\n" +
-      "依頼内容：" + type + "\n" +
-      "希望納期：" + deadline + "\n" +
-      "予算：" + budget + "\n\n" +
-      "詳細：\n" + message
-    );
+      const email =
+        document.getElementById("email").value;
 
-    const myEmail = "liannaidanshenggu17@gmail.com";
+      const type =
+        document.getElementById("type").value;
 
-    window.location.href =
-      "mailto:" + myEmail +
-      "?subject=" + subject +
-      "&body=" + body;
+      const deadline =
+        document.getElementById("deadline").value;
+
+      const budget =
+        document.getElementById("budget").value;
+
+      const message =
+        document.getElementById("message").value;
+
+
+      const subject =
+        encodeURIComponent("【依頼】" + type);
+
+
+      const body =
+        encodeURIComponent(
+          "お名前：" + name + "\n" +
+          "メールアドレス：" + email + "\n" +
+          "依頼内容：" + type + "\n" +
+          "希望納期：" + deadline + "\n" +
+          "予算：" + budget + "\n\n" +
+          "詳細：\n" + message
+        );
+
+
+      const myEmail =
+        "liannaidanshenggu17@gmail.com";
+
+
+      window.location.href =
+        "mailto:" + myEmail +
+        "?subject=" + subject +
+        "&body=" + body;
 
   });
+
 </script>
+
 
 <script src="./script.js"></script>
 
 </body>
 </html>
-<script src="./script.js"></script>
-/* =========================
-   REQUEST ヘッダー
-========================= */
-
-header {
-    position: relative !important;
-    padding: 40px 30px !important;
-    border-bottom: 1px solid #eee !important;
-
-    display: flex !important;
-    align-items: center !important;
-    justify-content: space-between !important;
-
-    text-align: left !important;
-}
-
-/* ロゴ */
-header .logo {
-    text-decoration: none !important;
-    color: #333 !important;
-    font-size: 32px !important;
-    font-weight: 500 !important;
-    white-space: nowrap !important;
-    margin-left: 20px !important;
-}
-
-/* 検索 */
-header .search {
-    margin-left: auto !important;
-    margin-right: 20px !important;
-}
-
-/* 三本線 */
-header .menu-button {
-    width: 40px !important;
-    height: 30px !important;
-    padding: 0 !important;
-    margin: 0 !important;
-    border: none !important;
-    background: none !important;
-}
-
-/* 三本線 */
-header .menu-button span {
-    display: block !important;
-    width: 100% !important;
-    height: 2px !important;
-    background: #333 !important;
-    margin: 7px 0 !important;
-}
-
-/* スマホ */
-@media screen and (max-width: 600px) {
-
-    header {
-        height: 140px !important;
-        padding: 30px 15px !important;
-    }
-
-    header .logo {
-        position: absolute !important;
-        left: 20px !important;
-        top: 20px !important;
-        margin: 0 !important;
-        font-size: 18px !important;
-    }
-
-    header .menu-button {
-        position: absolute !important;
-        right: 20px !important;
-        top: 20px !important;
-    }
-
-    header .search {
-        position: absolute !important;
-        right: 10px !important;
-        top: 75px !important;
-        margin: 0 !important;
-    }
-
-    header .search input {
-        width: 160px !important;
-    }
-}
