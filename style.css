@@ -452,21 +452,19 @@ footer {
 /* =========================
    スマホ
 ========================= */
-
-@media screen and (max-width:600px) {
-
-    .search {
-        position: absolute;
-        right: 10px;
-        top: 75px;
-        margin: 0;
-    }
-
-    .search input {
-        width: 350px;
-    }
-
+.search {
+    position: absolute;
+    right: 10px;
+    top: 75px;
+    margin: 0;
 }
+
+.search input {
+    width: 300px;
+}
+
+
+
 
 /* =========================
    検索結果
